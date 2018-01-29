@@ -9,7 +9,7 @@ echo YouTube: http://bit.ly/VoltixG
 timeout 1 >nul
 echo Please subscribe for more.
 timeout 1 >nul
-start https://www.youtube.com/channel/UCZ6T3dyOeSUY3GpUM0OqhXw?sub_confirmation=1
+start http://bit.ly/VoltixSub
 timeout 3 >nul
 cls
 color 0f
