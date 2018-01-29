@@ -9,7 +9,7 @@ echo YouTube: http://bit.ly/VoltixG
 timeout 1 >nul /NOBREAK
 echo Please subscribe for more.
 timeout 1 >nul /NOBREAK
-::start http://bit.ly/VoltixSub
+start http://bit.ly/VoltixSub
 timeout 3 >nul /NOBREAK
 cls
 color 0f
