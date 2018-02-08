@@ -181,6 +181,7 @@ echo.
 set /p newpass=:
 
 cd %userprofile%\documents\AccountBin\Profiles\%passuser%
+if %newpass% == %oldpass% goto oldpassused
 if %loginuser% == %newpass% goto nopassasuser2
 rename "%oldpass%.bat" "%newpass%.bat"
 echo P.C: %date% %time%>>LoggedLogins.txt
@@ -329,6 +330,12 @@ cls
 echo The folder name you have provided was not found.
 pause >nul
 goto selection
+
+:oldpassused
+cls
+echo This is already your password.
+pause >nul
+goto changepassword
 
 
 ::Success Edit to your liking.
